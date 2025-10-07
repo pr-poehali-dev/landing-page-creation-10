@@ -71,20 +71,14 @@ export default function Index() {
         </div>
       </nav>
 
-      <section className="pt-32 pb-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="animate-fade-in">
-              <h1 className="text-[120px] md:text-[180px] lg:text-[220px] font-black leading-none tracking-tighter">
-                NDA
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-600 mt-6 max-w-lg">
-                Дизайн-студия полного цикла. Создаём бренды и цифровые продукты, которые вдохновляют.
-              </p>
-            </div>
-            <div className="flex justify-center lg:justify-end">
-              <div className="w-full max-w-md aspect-square bg-gradient-to-br from-black via-gray-600 to-gray-300 rounded-3xl"></div>
-            </div>
+      <section className="pt-32 pb-20 px-6 min-h-screen flex items-center bg-[#D4CBC3]">
+        <div className="max-w-7xl mx-auto w-full">
+          <div className="flex flex-col items-center justify-center text-center">
+            <img 
+              src="https://cdn.poehali.dev/files/f95fcb10-094c-43e7-b006-d23f54f84fa5.png" 
+              alt="NDA - Neuro.Design.Architecture"
+              className="w-full max-w-4xl h-auto"
+            />
           </div>
         </div>
       </section>
